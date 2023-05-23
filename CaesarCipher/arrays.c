@@ -5,8 +5,10 @@ int main()
     int arr2[2];
     int *a1 = arr1;
     int *a2 = arr2;
+
     printf("%d \n", a1);
     printf("%d \n", a2);
+    //Showing the addresses of the 2 arrays
 
     printf("First array exists:\n");
     for(int i=0; i<2; i++)
